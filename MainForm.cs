@@ -41,20 +41,26 @@ namespace AutoClicker
         private void ToggleClicker()
         {
             isClicking = !isClicking;
-            buttonStartStop.Text = isClicking ? "PARANDO..." : "INICIANDO...";
-            buttonStartStop.BackColor = isClicking ? Color.Red : Color.LimeGreen;
-
+            
+            Color accentOrange = Color.FromArgb(255, 131, 0);
+            Color accentOrangeDark = Color.FromArgb(255, 98, 0);
+            
             if (isClicking)
             {
+                buttonStartStop.Text = "STOP (Ctrl+Alt+A)";
+                buttonStartStop.BackColor = accentOrangeDark;
+                labelStatus.Text = "Status: ACTIVE";
+                labelStatus.ForeColor = accentOrange;
                 StartClicking();
             }
             else
             {
+                buttonStartStop.Text = "START (Ctrl+Alt+A)";
+                buttonStartStop.BackColor = accentOrange;
+                labelStatus.Text = "Status: STOPPED";
+                labelStatus.ForeColor = Color.FromArgb(200, 200, 200);
                 StopClicking();
             }
-
-            labelStatus.Text = $"Status: {(isClicking ? "ATIVO ✓" : "PARADO ✗")}";
-            labelStatus.ForeColor = isClicking ? Color.Green : Color.Red;
         }
 
         private void StartClicking()

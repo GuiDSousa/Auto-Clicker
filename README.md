@@ -1,15 +1,15 @@
-# 🎮 AutoClicker - Jogos Idle
+# AutoClicker - Jogos Idle
 
 Um autoclicker simples e eficiente desenvolvido em C# para jogos idle. Clique automaticamente com velocidade ajustável!
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-- ✅ **Cliques Repetidos**: Configure de 1 a 50 cliques por segundo
-- ✅ **Hotkey Global**: Ative/Desative com `Ctrl + Alt + A` (funciona mesmo em outro programa)
-- ✅ **Interface Amigável**: Interface simples e intuitiva com status visual
-- ✅ **Ajuste em Tempo Real**: Mude a velocidade sem parar os cliques
+- **Cliques Repetidos**: Configure de 1 a 50 cliques por segundo
+- **Hotkey Global**: Ative/Desative com `Ctrl + Alt + A` (funciona mesmo em outro programa)
+- **Interface Amigável**: Interface simples e intuitiva com status visual
+- **Ajuste em Tempo Real**: Mude a velocidade sem parar os cliques
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Compilar e Executar
 
@@ -33,25 +33,25 @@ Um autoclicker simples e eficiente desenvolvido em C# para jogos idle. Clique au
 
 ### Estados
 
-- 🟢 **Verde**: Clicker parado, pronto para iniciar
-- 🔴 **Vermelho**: Clicker ativo, clicando automaticamente
+- **Verde**: Clicker parado, pronto para iniciar
+- **Vermelho**: Clicker ativo, clicando automaticamente
 
-## ⚙️ Requisitos
+## Requisitos
 
 - .NET 8.0 ou superior
 - Windows (usa APIs nativas do Windows)
 
-## 📦 Dependências
+## Dependências
 
 - `InputSimulator` - Para simular cliques do mouse
 
-## ⚠️ Aviso
+## Aviso
 
 - Use com responsabilidade em jogos que permitam automação
 - Alguns jogos ou sistemas podem banir por uso de autoclickers
 - Verifique os termos de serviço do jogo antes de usar
 
-## 🔧 Futuras Melhorias
+## Futuras Melhorias
 
 - Salvar perfis de configuração
 - Cliques em posições específicas
@@ -61,4 +61,4 @@ Um autoclicker simples e eficiente desenvolvido em C# para jogos idle. Clique au
 
 ---
 
-Desenvolvido com ❤️ para gamers idle
+Desenvolvido para gamers idle
